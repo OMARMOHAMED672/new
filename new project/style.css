@@ -1,0 +1,72 @@
+/* all start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* all end */
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Full viewport height */
+}
+
+.main {
+    background-color: rgb(64, 66, 66);
+    border-radius: 20px;
+    padding: 20px; /* Padding inside the section */
+    max-width: 90%; /* Responsive width */
+    width: 350px; /* Fixed width for larger screens */
+    text-align: center; /* Center text */
+    height: auto; /* Allow height to adjust automatically */
+}
+
+.my-img {
+    border-radius: 50px;
+}
+
+.name {
+    color: white;
+    font-style: italic;
+}
+
+.add {
+    color: greenyellow;
+    font-style: italic;
+}
+
+.position {
+    color: white;
+    font-style: italic;
+}
+
+.links-section {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+    margin-top: 20px; /* Space above buttons */
+}
+
+.links-section a {
+    text-decoration: none; /* Remove underline from links */
+    
+}
+
+.links-section button {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Adjust padding */
+    margin: 5px 0; /* Space between buttons */
+    width: 300px; /* Consistent button width */
+    transition: background-color 0.3s; /* Add transition effect */
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.links-section button:hover {
+    background-color: rgba(32, 30, 28, 0.8); /* Slight change on hover */
+}
